@@ -1029,10 +1029,12 @@ section,
 .why-us .content h3 {
   font-weight: 400;
   font-size: 34px;
+  margin-bottom: 50px;
 }
 
 .why-us .content p {
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color: color-mix(in srgb, var(--default-color));
+  text-align: justify;
 }
 
 .why-us .faq-container .faq-item {
@@ -1127,7 +1129,7 @@ section,
 }
 
 .why-us .why-us-img img {
-  max-height: 70%;
+  max-height: 90%;
 }
 
 /*--------------------------------------------------------------
