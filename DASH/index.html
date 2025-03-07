@@ -55,9 +55,9 @@
         <ul>
           <li><a href="#about">Company Profile</a></li>
           <li><a href="#why-us">President's Message</a></li>
-          <li><a href="#">Organization</a></li>
+          <li><a href="#organization">Organization</a></li>
           <li><a href="#">History</a></li>
-          <li><a href="#">Certifications</a></li>
+          <li><a href="#certifications">Certifications</a></li>
         </ul>
           </li>
           <li class="dropdown"><a href="#"><span style="text-align: center;">Products &<br>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -302,7 +302,7 @@
 <!--Organization Section -->
 <section id="organization" class="call-to-action section dark-background">
 
-  <img src="images/mt.png" alt="">
+  <img src="images/Slides/build.png" alt="">
 
   <div class="container">
 
@@ -490,28 +490,72 @@
 
       </div>
 
-    </section><!-- /Skills Section -->
+    <!--Certifications Section -->
+    <section id="certifications" class="call-to-action section dark-background">
 
-    <!-- Call To Action Section -->
-    <section id="call-to-action" class="call-to-action section dark-background">
-
-      <img src="images/mt.png" alt="">
+      <img src="images/Slides/ship.png" alt="">
 
       <div class="container">
 
-        <div class="row" data-aos="zoom-in" data-aos-delay="100">
-          <div class="col-xl-9 text-center text-xl-start">
-            <h3>Call To Action</h3>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-          <div class="col-xl-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Call To Action</a>
+        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-9 text-center">
+            <h3 style="font-size: 3.5rem;">CERTIFICATES</h3>
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+              <div class="row gy-5 justify-content-center">
+                <div class="col-xl-3 cta-btn-container text-center">
+                  <a class="cta-btn align-middle" href="#" data-bs-toggle="modal" data-bs-target="#certificateCarousel">Certificates</a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
       </div>
 
-    </section><!-- /Call To Action Section -->
+    </section><!-- /Certifications Section -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="certificateCarousel" tabindex="-1" aria-labelledby="certificateCarouselLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/isms.png" class="d-block w-100" alt="Certificate 1">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/plant-cert.jpeg" class="d-block w-100" alt="Certificate 2">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/plant-cert.png" class="d-block w-100" alt="Certificate 3">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/ship.png" class="d-block w-100" alt="Certificate 4">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Portfolio Section -->
     <section id="portfolio" class="portfolio section">
