@@ -1282,6 +1282,7 @@ section,
 .work-process .steps-content {
   position: relative;
   padding: 40px 30px 30px;
+  height: 25rem;
 }
 
 .work-process .steps-content .steps-number {
@@ -1294,7 +1295,7 @@ section,
   color: var(--contrast-color);
   border-radius: 50%;
   font-family: var(--heading-font);
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
   display: flex;
   align-items: center;
