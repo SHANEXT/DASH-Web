@@ -2233,6 +2233,8 @@ section,
   background: color-mix(in srgb, var(--accent-color), transparent 25%);
 }
 
+
+
 /*--------------------------------------------------------------
 # Portfolio Details Section
 --------------------------------------------------------------*/
@@ -2315,21 +2317,48 @@ section,
   border-radius: 8px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   width: 100%;
+  margin-bottom: 10px;
 }
 
-.modal-3d-container img {
-  width: 50%;
-  height: auto;
+.modal-3d-container .img-container {
+  flex: 3; /* Adjust this value to make the image container bigger */
   margin-right: 20px;
 }
 
+.modal-3d-container img {
+  width: auto;
+  height: 100%;
+  border-radius: 8px;
+}
+
 .modal-3d-container .modal-text {
-  width: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 20px;
+  margin-left: 20px;
+  flex: 4; /* Ensure it takes up available space */
+  position: relative;
+}
+
+.modal-3d-container .modal-text .header-color {
+  background-color: var(--accent-color); /* Change this color as needed */
+  height: 5px; /* Adjust the height as needed */
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.modal-3d-container p {
+  font-size: 0.9rem;
 }
 
 .modal-3d-container ul {
-  list-style: none;
-  padding: 0;
+  list-style: disc; /* Ensure bullets are shown */
+  padding-left: 20px; /* Add padding to align bullets */
   margin: 0;
 }
 
@@ -2345,7 +2374,22 @@ section,
 }
 
 .modal-3d-container ul ul li {
-  margin-bottom: 5px;
+  margin-bottom: 2px;
+}
+
+.modal-3d-container ul li a {
+  color: var(--default-color);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.modal-3d-container ul li a p {
+  font-size: 0.5rem;
+}
+
+.modal-3d-container ul li a:hover {
+  text-decoration: underline;
+  color: var(--accent-color);
 }
 /*--------------------------------------------------------------
 # Service Details Section
